@@ -12,7 +12,7 @@ For clustering, we have decided on 3 clusters after the Silhouette score plot an
 
 For sentiment analysis, we used both supervised and unsupervised techniques where we used Linear Discriminant Analysis & Non-negative Matrix Factorization for unsupervised and Multinomial NB, Logistic regression, Decision trees, and its ensembles for supervised learning. In Sentiment Analysis, we converted the ratings above 3.5 as positive and the rating below 3.5 as negative. After tuning the hyperparameters and using the cross-validation technique, the optimum hyperparameters were chosen for the models and the best model was chosen as logistic regression and Lightgbm classifier for supervised learning technique.
 
-Problem Statement
+# Problem Statement
 
 Your task is to cluster the Zomato restaurants into different segments. Also, the data has valuable information around cuisine and costs which can be used in cost vs. benefit analysis Perform sentiment analysis. Also, use the metadata of reviewers to identify the critics in the industry.
 
