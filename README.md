@@ -82,6 +82,5 @@ It can be seen that the silhouette score for k=3 is the highest
 Sentiment Analysis
 
 Conclusion
-
 Based on the silhouette score plot and elbow plot, we decided on 3 clusters that were grouped using KMeans clustering and Hierarchical clustering.
 Best models we found for sentiment analysis(Supervised) are Lightgbm and logistic regression
